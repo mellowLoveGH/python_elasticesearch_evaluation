@@ -11,7 +11,8 @@ The most standard approach is pooling,
 where relevance is assessed over a subset of the collection that is formed 
 from the top k documents returned by  many different IR systems (usually the ones to be evaluated).
 
-The Document Collection (dataset): Wikipedia Movie.
+The Document Collection (dataset): Wikipedia Movie. 
+data download: https://www.kaggle.com/jrobischon/wikipedia-movieplots?select=wiki_movie_plots_deduped.csv .
 
 In the program:
 1) ·	Building a Test Collection:
@@ -27,3 +28,5 @@ In the program:
   A document is either relevant or non-relevant (not relevant) for an information need. 
 5) ·	Evaluation 
   identify a suitable metric. Use P@5 and R@5 as the metric of choice for this program
+
+// this code is the continuation of ' python_elasticesearch_search_engine ', link: https://github.com/mellowLoveGH/python_elasticesearch_search_engine .
